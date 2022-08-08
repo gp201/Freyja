@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='en' class='h-100'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <!-- import bootstrap css -->
+    <!-- CSS only -->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx' crossorigin='anonymous'>
+    <!-- JavaScript Bundle with Popper -->
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa'
+        crossorigin='anonymous'></script>
+    <title>Waste Water Dashboard</title>
+</head>
+
+<body class='d-flex flex-column h-100'>
+    <header class='sticky-top w-auto p-3' style='background-color: aqua;'>
+        <nav class='navbar navbar-expand-lg justify-content-center'>
+            <div class='container center' style='display: flex; justify-content: left;'>
+                <h1 style='color: black;'>Waste Water Dashboard (Sticky)</h1>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class='container' , style='padding: 2em 0.25em'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <div class='card'>
+                            <div class='card-body'>
+                                <h5>Waste Water Dashboard</h5>
+                                <p class='card-text'>This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='row' , style='padding-top: 20px;'>
+                    <div class='col-sm-12'>
+                        <div class='card'>
+                            <div class='card-body'>
+                                <h5 class='card-title'>Waste Water Dashboard</h5>
+                                <br>
+                                <!-- resize with card height -->
+                                <div id='chart_div' style='width: 100%; height: 100%;'>
+                                    <div align='center' , style='width: 100%; height: 100%;'>
+                                        <div class='spinner-border' role='status'>
+                                            <!-- <span class='sr-only'>Loading...</span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class='card-text'><small class='text-muted'>Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class='mt-auto border-top bg-light border-4 rounded-pill'>
+        <div class='container'>
+            <div class='text-center text-dark'>
+                    <img src='https://tinyurl.com/freyjaLogo' alt='Freyja logo' width=75 height=75>
+                    Made with <a href=https://github.com/andersen-lab/Freyja class='text-dark'> Freyja </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
